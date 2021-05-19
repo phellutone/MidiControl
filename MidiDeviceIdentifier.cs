@@ -110,6 +110,7 @@ public class MidiDeviceIdentifierEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty("_productName"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("_channels"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("_product"), true);
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("_number"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("_channel"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("_displayName"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("_value"), true);
