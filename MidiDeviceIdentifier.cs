@@ -56,7 +56,7 @@ public class MidiDeviceIdentifier : MonoBehaviour
         return false;
     }
 
-    private void OnEnable()
+    private void Awake()
     {
         InputSystem.onDeviceChange += (device, change) =>
         {
