@@ -70,7 +70,7 @@ public class MidiActionIdentifier : MonoBehaviour
                 foreach (var action in _valuecontrol)
                     this.value = action(val);
 
-            if (val == 0 && _statecontrol != null)
+            if (val == 1 && _statecontrol != null)
                 foreach (var action in _statecontrol)
                     this.state = action(this.state);
 
